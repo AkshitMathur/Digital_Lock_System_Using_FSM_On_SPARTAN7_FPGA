@@ -114,18 +114,6 @@ vvp sim_out
 
 ---
 
-## ✅ Verification
-
-- Verified via behavioral simulation confirming correct state transitions for all valid and invalid key sequences.
-- Debounce timing validated against a 20ms mechanical bounce window.
-- Hardware-tested on Spartan-7 dev board: correct sequence lights `UnLc`, incorrect sequence lights `_Loc`.
-
-| Correct sequence | Incorrect sequence |
-|---|---|
-| ![Unlocked](docs/output_unlocked.jpg) | ![Failed](docs/output_failed.jpg) |
-
----
-
 ## 🔭 Future Scope
 
 - **Non-volatile code storage** — Flash/EEPROM-backed, user-programmable combination that survives power-off
